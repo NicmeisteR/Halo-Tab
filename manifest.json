@@ -1,0 +1,18 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "content_security_policy": "script-src 'self' https://kit.fontawesome.com/468c9447d4.js; object-src 'self'",
+   "description": "The Halo New Tab Extension",
+   "homepage_url": "https://nicmeister.cloud",
+   "icons": {
+      "128": "img/initab-icon-128.png",
+      "16": "img/initab-icon-16-alt.png",
+      "48": "img/initab-icon-48.png"
+   },
+   "incognito": "not_allowed",
+   "manifest_version": 2,
+   "name": "HaloTab",
+   "permissions": [ "topSites", "history", "tabs" ],
+   "version": "1.0.0"
+}
